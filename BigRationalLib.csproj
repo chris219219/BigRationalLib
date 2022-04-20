@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BigRational.cs~RF15f70b06.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="IntXLib">
+      <HintPath>..\IntXLib\bin\Release\net6.0\IntXLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
